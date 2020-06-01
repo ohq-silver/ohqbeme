@@ -1,0 +1,88 @@
+.personCenterlease {
+  height: 800px;
+  line-height: 20px;
+}
+.personCenterlease .el-card {
+  height: 600px;
+}
+.personCenterlease .demo-table-expand {
+  font-size: 0;
+}
+.personCenterlease .demo-table-expand label {
+  width: 90px;
+  color: #99a9bf;
+}
+.personCenterlease .demo-table-expand .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+.personCenterlease .lease-page {
+  float: right;
+  margin: 20px 0;
+}
+.personCenterlease .title {
+  color: #409eff;
+  font-size: 20px;
+  font-weight: 600;
+  height: 36px;
+  line-height: 17px;
+  border-bottom: 1px solid #ebeef5;
+}
+.personCenterlease .lease-button {
+  float: left;
+  margin: 20px 0;
+}
+.personCenterlease .input-house-message .el-select,
+.personCenterlease .print-house-message .el-select {
+  width: 100%;
+}
+.personCenterlease .input-house-message .el-dialog__body {
+  height: 300px;
+}
+.personCenterlease .print-house-message .el-dialog__body {
+  height: 360px;
+}
+.personCenterlease .print-house-message .left-message {
+  float: left;
+  margin-left: 55px;
+  width: 300px;
+  height: 220px;
+  text-align: left;
+}
+.personCenterlease .print-house-message .left-message h1 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.personCenterlease .print-house-message .left-message h2 {
+  margin-top: 20px;
+  color: red;
+  font-size: 25px;
+}
+.personCenterlease .print-house-message .left-message .pref-box {
+  margin-top: 30px;
+}
+.personCenterlease .print-house-message .left-message .pref-contact {
+  margin-top: 30px;
+}
+.personCenterlease .print-house-message .right-message {
+  float: right;
+  margin-top: 10px;
+  margin-right: 60px;
+  width: 300px;
+  height: 220px;
+}
+.personCenterlease .print-house-message .right-message img {
+  width: 300px;
+  height: 280px;
+}
+.personCenterlease .print-house-message .pref-content {
+  margin-top: 10px;
+  border: 1px solid rgb(191, 203, 217);
+  border-radius: 5px;
+  height: 300px;
+}
+.personCenterlease .lease-button .el-input-group {
+  width: 400px;
+  margin-right: 10px;
+}

@@ -1,0 +1,48 @@
+.header {
+    /* width: 1700px; */
+    height: 100%;
+    margin: 0 auto;
+  }
+.header .top-banner {
+    background-color: #303035;
+  }
+.header .top-text-box {
+    width: 100%;
+    height: 35px;
+    margin: 0px auto;
+    color: #999;
+    line-height: 8px;
+  }
+.header .nav-menu-ul,
+.header .log-reg-ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.header .nav-menu-ul {
+    margin-left: 150px;
+    margin-top: -15px;
+  }
+  .header .log-reg-ul {
+    margin-left: 900px;
+    margin-top: -15px;
+  }
+  .header .nav-menu-ul li,
+  .header .log-reg-ul li {
+    float: left;
+  }
+  .header .nav-menu-ul li a,
+  .header .log-reg-ul li a {
+    display: block;
+    color: #999;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .header .nav-menu-ul li a:hover,
+  .header .log-reg-ul li a:hover {
+    color: #FFF;
+  }

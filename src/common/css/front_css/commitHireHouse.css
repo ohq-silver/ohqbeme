@@ -1,0 +1,112 @@
+.commitHireHouse {
+    width: 1519px;
+    margin: 0 auto;
+}
+/*委托出租页面头部搜索框和导航菜单样式*/
+.commitHireHouse .top-box{
+    background-size: 100% 100%;
+    background-image: url('../../../common/images/topbgimage.jpg');
+    /* width: 1700px; */
+    height: 230px;
+    margin: 0 auto;
+}
+.commitHireHouse .top-box .menu{
+    padding-top: 15px;
+    padding-left: 155px;
+}
+.commitHireHouse .top-box .menu ul{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.commitHireHouse .top-box .menu ul li{
+    float: left;
+    padding: 14px 0px;
+}
+.commitHireHouse .top-box .menu ul li a{
+    font-weight: bold;
+    color: #fff;
+}
+.commitHireHouse .top-box .menu ul li a:hover{
+    color:#777;
+}
+.commitHireHouse .top-box .menu .menu-three{
+    color:#06c;
+}
+.commitHireHouse .top-box .menu .menu-one,
+.commitHireHouse .top-box .menu .menu-two,
+.commitHireHouse .top-box .menu .menu-three,
+.commitHireHouse .top-box .menu .menu-four {
+    margin-left: 30px;
+}
+.commitHireHouse .top-box .menu .el-input input{
+    width: 600px;
+}
+.commitHireHouse .top-box .title {
+    margin-top: 30px;
+    text-align: center;
+}
+.commitHireHouse .top-box .title h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #fff;
+}
+/*委托出租页面主体样式*/
+.commitHireHouse .content{
+    /* margin-top: 50px;
+    margin-left: 241px; */
+    margin: 50px auto;
+    width: 510px;
+}
+.commitHireHouse .el-form-item__label {
+    color: #000;
+    font-weight: bolder;
+}
+.commitHireHouse .el-input__inner {
+    border-radius:0px;
+    border: none;
+    border-bottom: 1px solid #DCDFE6;
+}
+.commitHireHouse .content .sell-house-form h4 {
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 197px;
+}
+.commitHireHouse .content .sell-house-form a {
+    position: absolute;
+    width: 180px;
+    margin-left: -150px;
+    float: right;
+    color: #009de8;
+    font-size: 12px;
+}
+.commitHireHouse .content .sell-house-form .send-code{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -120px;
+}
+.commitHireHouse .content .sell-house-form .codeGeting{
+  background: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #06c;
+}
+.commitHireHouse .content .sell-house-form .commit {
+    margin-left: 325px;
+}
+.commitHireHouse .content .sell-house-form {
+    display: inline-block;
+}
+.commitHireHouse .content .sell-house-form .pull-down-choice input{
+    border: 1px solid #DCDFE6;
+    background-color: rgba(238,238,238,.4);
+    width: 130px;
+    height: 36px;
+}
+/*委托出租页面尾部样式*/
+.commitHireHouse .footer {
+    margin-left: 80px;
+}

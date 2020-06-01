@@ -1,0 +1,88 @@
+.personCenterSell {
+    height: 800px;
+    line-height: 20px;
+  }
+  .personCenterSell .el-card {
+    height: 600px;
+  }
+  .personCenterSell .demo-table-expand {
+    font-size: 0;
+  }
+  .personCenterSell .demo-table-expand label {
+    width: 90px;
+    color: #99a9bf;
+  }
+  .personCenterSell .demo-table-expand .el-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+  }
+  .personCenterSell .lease-page {
+    float: right;
+    margin: 20px 0;
+  }
+  .personCenterSell .title {
+    color: #409eff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 36px;
+    line-height: 17px;
+    border-bottom: 1px solid #ebeef5;
+  }
+  .personCenterSell .lease-button {
+    float: left;
+    margin: 20px 0;
+  }
+  .personCenterSell .input-house-message .el-select,
+  .personCenterSell .print-house-message .el-select {
+    width: 100%;
+  }
+  .personCenterSell .input-house-message .el-dialog__body {
+    height: 300px;
+  }
+  .personCenterSell .print-house-message .el-dialog__body {
+    height: 360px;
+  }
+  .personCenterSell .print-house-message .left-message {
+    float: left;
+    margin-left: 55px;
+    width: 300px;
+    height: 220px;
+    text-align: left;
+  }
+  .personCenterSell .print-house-message .left-message h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .personCenterSell .print-house-message .left-message h2 {
+    margin-top: 20px;
+    color: red;
+    font-size: 25px;
+  }
+  .personCenterSell .print-house-message .left-message .pref-box {
+    margin-top: 30px;
+  }
+  .personCenterSell .print-house-message .left-message .pref-contact {
+    margin-top: 30px;
+  }
+  .personCenterSell .print-house-message .right-message {
+    float: right;
+    margin-top: 10px;
+    margin-right: 60px;
+    width: 300px;
+    height: 220px;
+  }
+  .personCenterSell .print-house-message .right-message img {
+    width: 300px;
+    height: 280px;
+  }
+  .personCenterSell .print-house-message .pref-content {
+    margin-top: 10px;
+    border: 1px solid rgb(191, 203, 217);
+    border-radius: 5px;
+    height: 300px;
+  }
+  .personCenterSell .lease-button .el-input-group {
+    width: 400px;
+    margin-right: 10px;
+  }

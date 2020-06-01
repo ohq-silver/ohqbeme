@@ -1,0 +1,88 @@
+.personCenterSellTwo {
+    height: 800px;
+    line-height: 20px;
+  }
+  .personCenterSellTwo .el-card {
+    height: 600px;
+  }
+  .personCenterSellTwo .demo-table-expand {
+    font-size: 0;
+  }
+  .personCenterSellTwo .demo-table-expand label {
+    width: 90px;
+    color: #99a9bf;
+  }
+  .personCenterSellTwo .demo-table-expand .el-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+  }
+  .personCenterSellTwo .lease-page {
+    float: right;
+    margin: 20px 0;
+  }
+  .personCenterSellTwo .title {
+    color: #409eff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 36px;
+    line-height: 17px;
+    border-bottom: 1px solid #ebeef5;
+  }
+  .personCenterSellTwo .lease-button {
+    float: left;
+    margin: 20px 0;
+  }
+  .personCenterSellTwo .input-house-message .el-select,
+  .personCenterSellTwo .print-house-message .el-select {
+    width: 100%;
+  }
+  .personCenterSellTwo .input-house-message .el-dialog__body {
+    height: 300px;
+  }
+  .personCenterSellTwo .print-house-message .el-dialog__body {
+    height: 360px;
+  }
+  .personCenterSellTwo .print-house-message .left-message {
+    float: left;
+    margin-left: 55px;
+    width: 300px;
+    height: 220px;
+    text-align: left;
+  }
+  .personCenterSellTwo .print-house-message .left-message h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .personCenterSellTwo .print-house-message .left-message h2 {
+    margin-top: 20px;
+    color: red;
+    font-size: 25px;
+  }
+  .personCenterSellTwo .print-house-message .left-message .pref-box {
+    margin-top: 30px;
+  }
+  .personCenterSellTwo .print-house-message .left-message .pref-contact {
+    margin-top: 30px;
+  }
+  .personCenterSellTwo .print-house-message .right-message {
+    float: right;
+    margin-top: 10px;
+    margin-right: 60px;
+    width: 300px;
+    height: 220px;
+  }
+  .personCenterSellTwo .print-house-message .right-message img {
+    width: 300px;
+    height: 280px;
+  }
+  .personCenterSellTwo .print-house-message .pref-content {
+    margin-top: 10px;
+    border: 1px solid rgb(191, 203, 217);
+    border-radius: 5px;
+    height: 300px;
+  }
+  .personCenterSellTwo .lease-button .el-input-group {
+    width: 400px;
+    margin-right: 10px;
+  }

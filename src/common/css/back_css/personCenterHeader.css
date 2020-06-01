@@ -1,0 +1,32 @@
+.person-header .el-header {
+    background-color: #242f42;
+    color: #fff;
+    line-height: 60px;
+  }
+  .person-header .el-header .top-head-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .person-header .el-header i {
+    color: #fff;
+  }
+  .person-header .el-header .head-text-one {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .person-header .el-header .el-radio__input {
+    display: none;
+  }
+  .person-header .el-header .head-text-two {
+    float: right;
+    color: #fff;
+  }
+  .person-header .el-header .head-text-two span {
+    color: #fff;
+  }
+  .person-header .el-header .head-text-two .el-avatar {
+    position: absolute;
+      margin-top: 12px;
+      margin-left: -45px;
+  }

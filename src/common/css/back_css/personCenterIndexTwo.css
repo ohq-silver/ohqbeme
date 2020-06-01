@@ -1,0 +1,225 @@
+.personCenterTwo .el-header {
+    background-color: #242f42;
+    color: #fff;
+    line-height: 60px;
+  }
+  .personCenterTwo .el-header .top-head-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .personCenterTwo .el-header i {
+    color: #fff;
+  }
+  .personCenterTwo .el-header .head-text-one {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .personCenterTwo .el-header .el-radio__input {
+    display: none;
+  }
+  .personCenterTwo .el-header .head-text-two {
+    float: right;
+    color: #fff;
+  }
+  .personCenterTwo .el-header .head-text-two span {
+    color: #fff;
+  }
+  .personCenterTwo .el-header .head-text-two .el-avatar {
+    position: absolute;
+      margin-top: 12px;
+      margin-left: -45px;
+  }
+  .personCenterTwo .el-aside {
+    background-color: #f0f0f0;
+    color: rgb(191, 203, 217);
+    text-align: left;
+    line-height: 200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .personCenterTwo .el-aside a {
+    color: #bfcbd9;
+  }
+  .personCenterTwo .el-aside .el-menu {
+    background-color: rgb(50, 65, 87);
+    border-right: none;
+  }
+  .personCenterTwo .el-aside .el-menu span {
+    font-size: 15px;
+  }
+  .personCenterTwo .el-aside .el-menu-item.is-active {
+    background-color: rgb(50, 65, 87);
+  }
+  .personCenterTwo .el-aside .el-menu-vertical-demo {
+    height: 700px;
+  }
+  .personCenterTwo .el-aside .el-menu span,
+  .personCenterTwo .el-aside .el-menu .el-menu-item,
+  .personCenterTwo .el-aside .el-menu span {
+    color: rgb(191, 203, 217);
+  }
+  .personCenterTwo .el-aside .el-menu .el-submenu__title:hover,
+  .personCenterTwo .el-aside .el-menu .el-menu-item:hover {
+    background-color: rgb(40, 52, 70);
+  }
+  .personCenterTwo .el-main {
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+    height: 700px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .personCenterTwo .el-main .person-controduce {
+    width: 403px;
+    height: 252px;
+    border-radius: 5px;
+  }
+  .personCenterTwo .el-main .person-controduce .user-info {
+    height: 160px;
+    border-bottom: 2px solid #ccc;
+  }
+  .personCenterTwo .el-main .person-controduce .user-info img {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .personCenterTwo .el-main .person-controduce .user-info .user-info-content {
+    float: left;
+    margin-top: 36px;
+    margin-left: 35px;
+    width: 95px;
+  }
+  .personCenterTwo .el-main .person-controduce .user-info .user-info-content .user-name {
+    font-size: 30px;
+    color: #222;
+    line-height: 25px;
+    height: 30px;
+  }
+  .personCenterTwo .el-main .person-controduce .user-info .user-info-content .user-type {
+    font-size: 14px;
+    color: #999;
+    height: 30px;
+    line-height: 25px;
+  }
+  .personCenterTwo .el-main .person-controduce .user-info-list-one {
+    float: left;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+  }
+  .personCenterTwo .el-main .person-controduce .user-info-list-two {
+    float: left;
+    height: 30px;
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+  }
+  .personCenterTwo .el-main .person-controduce .user-info-list-one .actually-text,
+  .personCenterTwo .el-main .person-controduce .user-info-list-two .actually-text {
+    margin-left: 150px;
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+  }
+  .personCenterTwo .el-main .show-message {
+    width: 862px;
+  }
+  .personCenterTwo .el-main .show-message .show-message-card .img-icon-user,
+  .personCenterTwo .el-main .show-message .show-message-card .img-icon-bell,
+  .personCenterTwo .el-main .show-message .show-message-card .img-icon-file {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+  }
+  .personCenterTwo .el-main .show-message .show-message-card .img-icon-user {
+    background-color: #2d8cf0;
+  }
+  .personCenterTwo .el-main .show-message .show-message-card .img-icon-bell {
+    background-color: #64d572;
+  }
+  .personCenterTwo .el-main .show-message .show-message-card .img-icon-file {
+    background-color: #f25e43;
+  }
+  .personCenterTwo .el-main .show-message .show-message-card .show-text {
+    margin-left: 120px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    height: 100px;
+    line-height: 100px;
+  }
+  .personCenterTwo .el-main .show-message .show-message-card .show-text .show-number {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2d8cf0;
+  }
+  .personCenterTwo .el-main .show-message .show-message-card .show-text .detail-text {
+    margin-top: -20px;
+  }
+  .personCenterTwo .el-main .show-message .show-message-card .show-text .show-number,
+  .personCenterTwo .el-main .show-message .show-message-card .show-text .detail-text {
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .personCenterTwo .el-main .house-progress{
+    width: 842px;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+    line-height: 50px;
+  }
+  .personCenterTwo .el-main .house-progress .house-progress-title {
+    height: 38px;
+    line-height: 30px;
+    border-bottom: 1px solid #ebeef5;
+  }
+  .personCenterTwo .el-main .house-progress .collect-house {
+    line-height: 30px;
+  }
+  .personCenterTwo .el-main .wait-do {
+    margin-top: 20px;
+    width: 403px;
+    border-radius: 5px;
+  }
+  .personCenterTwo .el-main .wait-do .wait-do-title {
+    height: 33px;
+    line-height: 13px;
+  }
+  .personCenterTwo .el-main .people-flow-chart {
+    /* position: absolute; 
+    bottom: 10px; */
+    line-height: 30px;
+    width: 842px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .personCenterTwo .el-main .people-flow-chart {
+    text-align: left;
+  }
+  .personCenterTwo .el-main .left-content {
+    float: left;
+  }
+  .personCenterTwo .el-main .right-content {
+    float: right;
+  }
+  /* .personCenterTwo .el-main .left-content,
+  .personCenterTwo .el-main .right-content {
+    display: inline-block;
+  } */
+  .personCenterTwo .el-main .left-content .house-tag {
+    margin-top: 20px;
+    line-height: 105px;
+  }

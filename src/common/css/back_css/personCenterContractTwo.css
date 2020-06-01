@@ -1,0 +1,47 @@
+.personCenterContractTwo .contract-manager {
+    height: 650px;
+    line-height: 30px;
+}
+.personCenterContractTwo .contract-manager .upload-box .left-content{
+    float: left;
+}
+/* .personCenterContractTwo .contract-manager .upload-box .left-content .box-test {
+    margin-top: 10px;
+    background-color: #000;
+    width: 360px;
+    height: 300px;
+} */
+.personCenterContractTwo .contract-manager .upload-box .right-content{
+    float: right;
+    width: 850px;
+}
+/* .personCenterContractTwo .contract-manager .upload-box .contract-message-top {
+    float: right;
+} */
+/* .personCenterContractTwo .contract-manager .right-box {
+    float: right;
+    width: 800px;
+    height: 300px;
+    background-color: #000;
+} */
+.personCenterContractTwo .contract-message-top {
+    height: 30px;
+}
+.personCenterContractTwo .contract-message-top a {
+    font-size: 16px;
+    color: #409EFF;
+}
+.personCenterContractTwo .box-card {
+    margin-left: 50px;
+}
+.personCenterContractTwo .box-card .contract-page {
+    float: right;
+    margin: 20px 0;
+}
+.personCenterContractTwo .input-house-message .el-select,
+  .personCenterContractTwo .print-house-message .el-select {
+    width: 100%;
+  }
+  .personCenterContractTwo .input-house-message .el-dialog__body {
+    height: 300px;
+  }

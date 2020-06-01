@@ -1,0 +1,638 @@
+.renting-house {
+    width: 1535px;
+    margin: 0 auto;
+}
+/*新房页面头部搜索框和导航菜单样式*/
+.renting-house .search-box{
+    background-size: 100% 100%;
+    background-image: url('../../../common/images/topbgimage.jpg');
+    /* width: 1700px; */
+    height: 150px;
+    margin: 0 auto;
+}
+.renting-house .search-box .menu{
+    padding-top: 15px;
+    padding-left: 155px;
+}
+.renting-house .search-box .menu ul{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.renting-house .search-box .menu ul li{
+    float: left;
+    padding: 14px 0px;
+}
+.renting-house .search-box .menu ul li a{
+    font-weight: bold;
+    color: #fff;
+}
+.renting-house .search-box .menu ul li a:hover{
+    color:#777;
+}
+.renting-house .search-box .menu .menu-one,
+.renting-house .search-box .menu .menu-two,
+.renting-house .search-box .menu .menu-three,
+.renting-house .search-box .menu .menu-four {
+    margin-left: 30px;
+}
+.renting-house .search-box .menu .el-input input{
+    width: 600px;
+}
+/*租房页面主体内容中多选框选择样式*/
+.renting-house-content{
+    /* width: 1700px; */
+    margin: 0 auto;
+}
+.renting-house-content .choose-form{
+    margin-top: 30px;
+    margin-left: 155px;
+    background-color: #f5f5f6;
+    width: 1220px;
+    height: 100%;
+    font-size: 12px;
+}
+.renting-house-content .choose-form .position-place{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.renting-house-content .choose-form .position-place hr{
+    margin-left: 0px;
+    width: 1150px;
+}
+/*ul列表横向排列*/
+.renting-house-content .choose-form .position-place ul,
+.renting-house-content .choose-form .area ul,
+.renting-house-content .choose-form .line ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.renting-house-content .choose-form .position-place ul li,
+.renting-house-content .choose-form .area ul li,
+.renting-house-content .choose-form .line ul li{
+    float: left;
+    padding: 14px 0px;
+}
+.renting-house-content .choose-form .position-place .text-one{
+    font-weight: bold;
+}
+.renting-house-content .choose-form .position-place #text-two,
+.renting-house-content .choose-form .position-place #text-three{
+    margin-left: 35px;
+    color: black;
+}
+.renting-house-content .choose-form .position-place #text-two:hover,
+.renting-house-content .choose-form .position-place #text-three:hover{
+    color: #06c;
+    text-decoration: underline;
+}
+/*区域和地铁线数据样式*/
+.renting-house-content .choose-form .position-place #text-two{
+    color: #06c;
+}
+.renting-house-content .choose-form .line{
+    display: none;
+}
+.renting-house-content .choose-form .area,
+.renting-house-content .choose-form .line{
+    margin-left: 80px;
+}
+.renting-house-content .choose-form .area .area-data-two,
+.renting-house-content .choose-form .area .area-data-three,
+.renting-house-content .choose-form .area .area-data-four,
+.renting-house-content .choose-form .area .area-data-five,
+.renting-house-content .choose-form .area .area-data-six,
+.renting-house-content .choose-form .area .area-data-seven,
+.renting-house-content .choose-form .area .area-data-eight,
+.renting-house-content .choose-form .area .area-data-nine,
+.renting-house-content .choose-form .area .area-data-ten,
+.renting-house-content .choose-form .area .area-data-elven,
+.renting-house-content .choose-form .area .area-data-twlve,
+.renting-house-content .choose-form .area .area-data-thirteen,
+.renting-house-content .choose-form .line .line-data-two,
+.renting-house-content .choose-form .line .line-data-three,
+.renting-house-content .choose-form .line .line-data-four,
+.renting-house-content .choose-form .line .line-data-five,
+.renting-house-content .choose-form .line .line-data-six,
+.renting-house-content .choose-form .line .line-data-seven,
+.renting-house-content .choose-form .line .line-data-eight,
+.renting-house-content .choose-form .line .line-data-nine,
+.renting-house-content .choose-form .line .line-data-ten,
+.renting-house-content .choose-form .line .line-data-elven,
+.renting-house-content .choose-form .line .line-data-twlve,
+.renting-house-content .choose-form .line .line-data-thirteen,
+.renting-house-content .choose-form .line .line-data-fourteen,
+.renting-house-content .choose-form .line .line-data-fifthteen,
+.renting-house-content .choose-form .line .line-data-sixteen{
+    margin-left: 15px;
+}
+/*表单表格样式*/
+.renting-house-content .choose-form .check-box-form .el-form-item__label{
+    font-weight: bold;
+    color: black;
+}
+.renting-house .el-form-item__label,
+.renting-house .el-checkbox__label{
+    font-size: 12px;
+    width: 102.36px;
+}
+.renting-house .el-form-item{
+    margin-bottom: 0px;
+    height: 40px;
+}
+.renting-house .more-choose-text,
+.renting-house .recive-choose-text{
+    height: 30px;
+    text-align: center;
+    color:#606266;
+    font-size: 12px;
+}
+.renting-house .show-hide-choose,
+.renting-house .recive-choose-text{
+    display: none;
+}
+/*租房详细信息*/
+.renting-house .house-details{
+    margin-top: 30px;
+    margin-left: 155px;
+}
+.renting-house .first-type-house-one,
+.renting-house .first-type-house-two,
+.renting-house .first-type-house-three,
+.renting-house .first-type-house-four,
+.renting-house .first-type-house-five,
+.renting-house .second-type-house-one,
+.renting-house .second-type-house-two,
+.renting-house .second-type-house-three,
+.renting-house .second-type-house-four,
+.renting-house .second-type-house-five,
+.renting-house .third-type-house-one,
+.renting-house .third-type-house-two,
+.renting-house .third-type-house-three,
+.renting-house .third-type-house-four,
+.renting-house .third-type-house-five,
+.renting-house .four-type-house-one,
+.renting-house .four-type-house-two,
+.renting-house .four-type-house-three,
+.renting-house .four-type-house-four,
+.renting-house .four-type-house-five{
+    margin-top: 15px;
+}
+.renting-house .first-type-house-one .introduce-text,
+.renting-house .first-type-house-two .introduce-text,
+.renting-house .first-type-house-three .introduce-text,
+.renting-house .first-type-house-four .introduce-text,
+.renting-house .first-type-house-five .introduce-text,
+.renting-house .second-type-house-one .introduce-text,
+.renting-house .second-type-house-two .introduce-text,
+.renting-house .second-type-house-three .introduce-text,
+.renting-house .second-type-house-four .introduce-text,
+.renting-house .second-type-house-five .introduce-text,
+.renting-house .third-type-house-one .introduce-text,
+.renting-house .third-type-house-two .introduce-text,
+.renting-house .third-type-house-three .introduce-text,
+.renting-house .third-type-house-four .introduce-text,
+.renting-house .third-type-house-five .introduce-text,
+.renting-house .four-type-house-one .introduce-text,
+.renting-house .four-type-house-two .introduce-text,
+.renting-house .four-type-house-three .introduce-text,
+.renting-house .four-type-house-four .introduce-text,
+.renting-house .four-type-house-five .introduce-text{
+    display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+    height: 100%;
+}
+.renting-house .first-type-house-one .introduce-text .tag span,
+.renting-house .first-type-house-two .introduce-text .tag span,
+.renting-house .first-type-house-three .introduce-text .tag span,
+.renting-house .first-type-house-four .introduce-text .tag span,
+.renting-house .first-type-house-five .introduce-text .tag span,
+.renting-house .second-type-house-one .introduce-text .tag span,
+.renting-house .second-type-house-two .introduce-text .tag span,
+.renting-house .second-type-house-three .introduce-text .tag span,
+.renting-house .second-type-house-four .introduce-text .tag span,
+.renting-house .second-type-house-five .introduce-text .tag span,
+.renting-house .third-type-house-one .introduce-text .tag span,
+.renting-house .third-type-house-two .introduce-text .tag span,
+.renting-house .third-type-house-three .introduce-text .tag span,
+.renting-house .third-type-house-four .introduce-text .tag span,
+.renting-house .third-type-house-five .introduce-text .tag span,
+.renting-house .four-type-house-one .introduce-text .tag span,
+.renting-house .four-type-house-two .introduce-text .tag span,
+.renting-house .four-type-house-three .introduce-text .tag span,
+.renting-house .four-type-house-four .introduce-text .tag span,
+.renting-house .four-type-house-five .introduce-text .tag span{
+    margin-top: 20px;
+    color: #849aae;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 11px;
+    margin-right: 6px;
+    background-color: #f4f7f9;
+    float: left;
+}
+.renting-house .first-type-house-one .introduce-text h4,
+.renting-house .first-type-house-two .introduce-text h4,
+.renting-house .first-type-house-three .introduce-text h4,
+.renting-house .first-type-house-four .introduce-text h4,
+.renting-house .first-type-house-five .introduce-text h4,
+.renting-house .second-type-house-one .introduce-text h4,
+.renting-house .second-type-house-two .introduce-text h4,
+.renting-house .second-type-house-three .introduce-text h4,
+.renting-house .second-type-house-four .introduce-text h4,
+.renting-house .second-type-house-five .introduce-text h4,
+.renting-house .third-type-house-one .introduce-text h4,
+.renting-house .third-type-house-two .introduce-text h4,
+.renting-house .third-type-house-three .introduce-text h4,
+.renting-house .third-type-house-four .introduce-text h4,
+.renting-house .third-type-house-five .introduce-text h4,
+.renting-house .four-type-house-one .introduce-text h4,
+.renting-house .four-type-house-two .introduce-text h4,
+.renting-house .four-type-house-three .introduce-text h4,
+.renting-house .four-type-house-four .introduce-text h4,
+.renting-house .four-type-house-five .introduce-text h4{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #9399a5;
+    font-weight: 700;
+}
+.renting-house .first-type-house-one .show-text,
+.renting-house .first-type-house-two .show-text,
+.renting-house .first-type-house-three .show-text,
+.renting-house .first-type-house-four .show-text,
+.renting-house .first-type-house-five .show-text,
+.renting-house .second-type-house-one .show-text,
+.renting-house .second-type-house-two .show-text,
+.renting-house .second-type-house-three .show-text,
+.renting-house .second-type-house-four .show-text,
+.renting-house .second-type-house-five .show-text,
+.renting-house .third-type-house-one .show-text,
+.renting-house .third-type-house-two .show-text,
+.renting-house .third-type-house-three .show-text,
+.renting-house .third-type-house-four .show-text,
+.renting-house .third-type-house-five .show-text,
+.renting-house .four-type-house-one .show-text,
+.renting-house .four-type-house-two .show-text,
+.renting-house .four-type-house-three .show-text,
+.renting-house .four-type-house-four .show-text,
+.renting-house .four-type-house-five .show-text{
+    height: 161px;
+}
+.renting-house .first-type-house-one .introduce-text .tag,
+.renting-house .first-type-house-two .introduce-text .tag,
+.renting-house .first-type-house-three .introduce-text .tag,
+.renting-house .first-type-house-four .introduce-text .tag,
+.renting-house .first-type-house-five .introduce-text .tag,
+.renting-house .second-type-house-one .introduce-text .tag,
+.renting-house .second-type-house-two .introduce-text .tag,
+.renting-house .second-type-house-three .introduce-text .tag,
+.renting-house .second-type-house-four .introduce-text .tag,
+.renting-house .second-type-house-five .introduce-text .tag,
+.renting-house .third-type-house-one .introduce-text .tag,
+.renting-house .third-type-house-two .introduce-text .tag,
+.renting-house .third-type-house-three .introduce-text .tag,
+.renting-house .third-type-house-four .introduce-text .tag,
+.renting-house .third-type-house-five .introduce-text .tag,
+.renting-house .four-type-house-one .introduce-text .tag,
+.renting-house .four-type-house-two .introduce-text .tag,
+.renting-house .four-type-house-three .introduce-text .tag,
+.renting-house .four-type-house-four .introduce-text .tag,
+.renting-house .four-type-house-five .introduce-text .tag{
+    display: inline-block;
+}
+.renting-house .first-type-house-one .introduce-text .total-unit-price,
+.renting-house .first-type-house-two .introduce-text .total-unit-price,
+.renting-house .first-type-house-three .introduce-text .total-unit-price,
+.renting-house .first-type-house-four .introduce-text .total-unit-price,
+.renting-house .first-type-house-five .introduce-text .total-unit-price,
+.renting-house .second-type-house-one .introduce-text .total-unit-price,
+.renting-house .second-type-house-two .introduce-text .total-unit-price,
+.renting-house .second-type-house-three .introduce-text .total-unit-price,
+.renting-house .second-type-house-four .introduce-text .total-unit-price,
+.renting-house .second-type-house-five .introduce-text .total-unit-price,
+.renting-house .third-type-house-one .introduce-text .total-unit-price,
+.renting-house .third-type-house-two .introduce-text .total-unit-price,
+.renting-house .third-type-house-three .introduce-text .total-unit-price,
+.renting-house .third-type-house-four .introduce-text .total-unit-price,
+.renting-house .third-type-house-five .introduce-text .total-unit-price,
+.renting-house .four-type-house-one .introduce-text .total-unit-price,
+.renting-house .four-type-house-two .introduce-text .total-unit-price,
+.renting-house .four-type-house-three .introduce-text .total-unit-price,
+.renting-house .four-type-house-four .introduce-text .total-unit-price,
+.renting-house .four-type-house-five .introduce-text .total-unit-price {
+    display: inline-block;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 245px;
+    width: 220px;
+    color: #fa5741;;
+}
+.renting-house .first-type-house-one .introduce-text .total-unit-price h4,
+.renting-house .first-type-house-two .introduce-text .total-unit-price h4,
+.renting-house .first-type-house-three .introduce-text .total-unit-price h4,
+.renting-house .first-type-house-four .introduce-text .total-unit-price h4,
+.renting-house .first-type-house-five .introduce-text .total-unit-price h4,
+.renting-house .second-type-house-one .introduce-text .total-unit-price h4,
+.renting-house .second-type-house-two .introduce-text .total-unit-price h4,
+.renting-house .second-type-house-three .introduce-text .total-unit-price h4,
+.renting-house .second-type-house-four .introduce-text .total-unit-price h4,
+.renting-house .second-type-house-five .introduce-text .total-unit-price h4,
+.renting-house .third-type-house-one .introduce-text .total-unit-price h4,
+.renting-house .third-type-house-two .introduce-text .total-unit-price h4,
+.renting-house .third-type-house-three .introduce-text .total-unit-price h4,
+.renting-house .third-type-house-four .introduce-text .total-unit-price h4,
+.renting-house .third-type-house-five .introduce-text .total-unit-price h4,
+.renting-house .four-type-house-one .introduce-text .total-unit-price h4,
+.renting-house .four-type-house-two .introduce-text .total-unit-price h4,
+.renting-house .four-type-house-three .introduce-text .total-unit-price h4,
+.renting-house .four-type-house-four .introduce-text .total-unit-price h4,
+.renting-house .four-type-house-five .introduce-text .total-unit-price h4{
+    margin-left: 80px;
+    color: #606266;
+}
+.renting-house .default-order hr,
+.renting-house .type-house hr,
+.renting-house .total-price hr,
+.renting-house .open-time hr{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.renting-house .first-type-house-one .introduce-text .show-text .type-tag,
+.renting-house .first-type-house-two .introduce-text .show-text .type-tag,
+.renting-house .first-type-house-three .introduce-text .show-text .type-tag,
+.renting-house .first-type-house-four .introduce-text .show-text .type-tag,
+.renting-house .first-type-house-five .introduce-text .show-text .type-tag,
+.renting-house .second-type-house-two .introduce-text .show-text .type-tag,
+.renting-house .second-type-house-three .introduce-text .show-text .type-tag,
+.renting-house .second-type-house-four .introduce-text .show-text .type-tag,
+.renting-house .second-type-house-five .introduce-text .show-text .type-tag,
+.renting-house .second-type-house-one .introduce-text .show-text .type-tag,
+.renting-house .third-type-house-one .introduce-text .show-text .type-tag,
+.renting-house .third-type-house-two .introduce-text .show-text .type-tag,
+.renting-house .third-type-house-three .introduce-text .show-text .type-tag,
+.renting-house .third-type-house-four .introduce-text .show-text .type-tag,
+.renting-house .third-type-house-five .introduce-text .show-text .type-tag,
+.renting-house .four-type-house-one .introduce-text .show-text .type-tag,
+.renting-house .four-type-house-two .introduce-text .show-text .type-tag,
+.renting-house .four-type-house-three .introduce-text .show-text .type-tag,
+.renting-house .four-type-house-four .introduce-text .show-text .type-tag,
+.renting-house .four-type-house-five .introduce-text .show-text .type-tag {
+    display: inline-block;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 15px;
+    
+}
+.renting-house .first-type-house-one .introduce-text .show-text h2,
+.renting-house .first-type-house-two .introduce-text .show-text h2,
+.renting-house .first-type-house-three .introduce-text .show-text h2,
+.renting-house .first-type-house-four .introduce-text .show-text h2,
+.renting-house .first-type-house-five .introduce-text .show-text h2,
+.renting-house .second-type-house-two .introduce-text .show-text h2,
+.renting-house .second-type-house-three .introduce-text .show-text h2,
+.renting-house .second-type-house-four .introduce-text .show-text h2,
+.renting-house .second-type-house-five .introduce-text .show-text h2,
+.renting-house .second-type-house-one .introduce-text .show-text h2,
+.renting-house .third-type-house-one .introduce-text .show-text h2,
+.renting-house .third-type-house-two .introduce-text .show-text h2,
+.renting-house .third-type-house-three .introduce-text .show-text h2,
+.renting-house .third-type-house-four .introduce-text .show-text h2,
+.renting-house .third-type-house-five .introduce-text .show-text h2,
+.renting-house .four-type-house-one .introduce-text .show-text h2,
+.renting-house .four-type-house-two .introduce-text .show-text h2,
+.renting-house .four-type-house-three .introduce-text .show-text h2,
+.renting-house .four-type-house-four .introduce-text .show-text h2,
+.renting-house .four-type-house-five .introduce-text .show-text h2{
+    display: inline-block;
+}
+.renting-house .first-type-house-one .introduce-text .show-text .type-tag .on-buy,
+.renting-house .first-type-house-two .introduce-text .show-text .type-tag .on-buy,
+.renting-house .first-type-house-three .introduce-text .show-text .type-tag .on-buy,
+.renting-house .first-type-house-four .introduce-text .show-text .type-tag .on-buy,
+.renting-house .first-type-house-five .introduce-text .show-text .type-tag .on-buy,
+.renting-house .second-type-house-two .introduce-text .show-text .type-tag .on-buy,
+.renting-house .second-type-house-three .introduce-text .show-text .type-tag .on-buy,
+.renting-house .second-type-house-four .introduce-text .show-text .type-tag .on-buy,
+.renting-house .second-type-house-five .introduce-text .show-text .type-tag .on-buy,
+.renting-house .second-type-house-one .introduce-text .show-text .type-tag .on-buy,
+.renting-house .third-type-house-one .introduce-text .show-text .type-tag .on-buy,
+.renting-house .third-type-house-two .introduce-text .show-text .type-tag .on-buy,
+.renting-house .third-type-house-three .introduce-text .show-text .type-tag .on-buy,
+.renting-house .third-type-house-four .introduce-text .show-text .type-tag .on-buy,
+.renting-house .third-type-house-five .introduce-text .show-text .type-tag .on-buy,
+.renting-house .four-type-house-one .introduce-text .show-text .type-tag .on-buy,
+.renting-house .four-type-house-two .introduce-text .show-text .type-tag .on-buy,
+.renting-house .four-type-house-three .introduce-text .show-text .type-tag .on-buy,
+.renting-house .four-type-house-four .introduce-text .show-text .type-tag .on-buy,
+.renting-house .four-type-house-five .introduce-text .show-text .type-tag .on-buy{
+    background: #5F94FF;
+    padding: 6px 7px;
+    margin-right: 7px;
+    line-height: 12px;
+    font-size: 12px;
+    vertical-align: middle;
+    border-radius: 2px;
+    letter-spacing: -.27px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+}
+.renting-house .first-type-house-one .introduce-text .show-text .type-tag .live-house,
+.renting-house .first-type-house-two .introduce-text .show-text .type-tag .live-house,
+.renting-house .first-type-house-three .introduce-text .show-text .type-tag .live-house,
+.renting-house .first-type-house-four .introduce-text .show-text .type-tag .live-house,
+.renting-house .first-type-house-five .introduce-text .show-text .type-tag .live-house,
+.renting-house .second-type-house-two .introduce-text .show-text .type-tag .live-house,
+.renting-house .second-type-house-three .introduce-text .show-text .type-tag .live-house,
+.renting-house .second-type-house-four .introduce-text .show-text .type-tag .live-house,
+.renting-house .second-type-house-five .introduce-text .show-text .type-tag .live-house,
+.renting-house .second-type-house-one .introduce-text .show-text .type-tag .live-house,
+.renting-house .third-type-house-one .introduce-text .show-text .type-tag .live-house,
+.renting-house .third-type-house-two .introduce-text .show-text .type-tag .live-house,
+.renting-house .third-type-house-three .introduce-text .show-text .type-tag .live-house,
+.renting-house .third-type-house-four .introduce-text .show-text .type-tag .live-house,
+.renting-house .third-type-house-five .introduce-text .show-text .type-tag .live-house,
+.renting-house .four-type-house-one .introduce-text .show-text .type-tag .live-house,
+.renting-house .four-type-house-two .introduce-text .show-text .type-tag .live-house,
+.renting-house .four-type-house-three .introduce-text .show-text .type-tag .live-house,
+.renting-house .four-type-house-four .introduce-text .show-text .type-tag .live-house,
+.renting-house .four-type-house-five .introduce-text .show-text .type-tag .live-house{
+    background: #FB9252;
+    padding: 6px 7px;
+    margin-right: 7px;
+    line-height: 12px;
+    font-size: 12px;
+    vertical-align: middle;
+    border-radius: 2px;
+    letter-spacing: -.27px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+}
+/*动画样式*/
+.renting-house .ciryle{
+    display: inline-block;
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 145px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.renting-house .donghua{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+    z-index: 10;
+}
+@-webkit-keyframes mymove {
+    50%{-webkit-transform: rotate(180deg);opacity: 0.3;}
+}
+@keyframes mymove{
+    50% {transform: rotate(180deg);opacity: 0.3;}
+}
+/*设置房屋详细信息中鼠标悬停时弹出图片轮播*/
+/* .renting-house .el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+} */
+  
+/* .renting-house .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+    background: linear-gradient(top,rgba(255,255,255,0),#99a9bf);
+    filter: progid:DXImageTransfrom.Microsoft.gradient(startColorstr=#00ffffff,endColorstr=#99a9bf,GradientType=0);
+}
+  
+.renting-house .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+} */
+/* .renting-house .bgimage-introduce{
+    display: none;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: -310px;
+}
+.renting-house .bgimage-introduce .el-carousel{
+    width: 892px;
+} */
+/* .renting-house .first-type-house-one:hover .bgimage-introduce,
+.renting-house .first-type-house-two:hover .bgimage-introduce,
+.renting-house .first-type-house-three:hover .bgimage-introduce,
+.renting-house .first-type-house-four:hover .bgimage-introduce,
+.renting-house .first-type-house-five:hover .bgimage-introduce,
+.renting-house .second-type-house-one:hover .bgimage-introduce,
+.renting-house .second-type-house-two:hover .bgimage-introduce,
+.renting-house .second-type-house-three:hover .bgimage-introduce,
+.renting-house .second-type-house-four:hover .bgimage-introduce,
+.renting-house .second-type-house-five:hover .bgimage-introduce,
+.renting-house .third-type-house-one:hover .bgimage-introduce,
+.renting-house .third-type-house-two:hover .bgimage-introduce,
+.renting-house .third-type-house-three:hover .bgimage-introduce,
+.renting-house .third-type-house-four:hover .bgimage-introduce,
+.renting-house .third-type-house-five:hover .bgimage-introduce,
+.renting-house .four-type-house-one:hover .bgimage-introduce,
+.renting-house .four-type-house-two:hover .bgimage-introduce,
+.renting-house .four-type-house-three:hover .bgimage-introduce,
+.renting-house .four-type-house-four:hover .bgimage-introduce,
+.renting-house .four-type-house-five:hover .bgimage-introduce{
+    display: block;
+} */
+.renting-house .house-details .el-image{
+    width: 280px;
+    height: 210px;
+}
+/*分页位置*/
+.renting-house .pagination-box{
+    margin-left: 560px;
+}
+.renting-house .pagination-box .last-page,
+.renting-house .pagination-box .next-page,
+.renting-house .pagination-box .page-number {
+    display: inline;
+}
+/*新房页面主题内容右部样式*/
+.renting-house .house-details {
+    display: inline-block;
+}
+.renting-house .content-right {
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 245px;
+    height: 100%;
+}
+.renting-house .help-me-look-house {
+    width: 200px;
+    /* height: 300px; */
+    /* background-size: 50px*50px;
+    background: url("../../common/images/help_me_find_house_img@2x.png") no-repeat; */
+}
+.renting-house .help-me-look-house .el-button {
+    position: absolute;
+    margin-top: 149px;
+    margin-left: -148px;
+    height: 10px;
+    line-height: 0;
+}
+.renting-house .hot-house-properties {
+    margin-top: 15px;
+}
+.renting-house .hot-house-more-info {
+    margin-top: 15px;
+}
+.renting-house .hot-house-more-info h5 {
+    display: inline-block;
+    width: 73px;
+    margin-top: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.renting-house .hot-house-more-info .tag {
+    display: inline-block;
+    margin-left: 31px;
+}
+.renting-house .hot-house-more-info .tag span {
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 4px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.renting-house .hot-house-more-info .tag .tag-one {
+    color: #3072f6;
+    background: rgba(107,153,246,.11);
+    margin-right: 4px;
+}
+.renting-house .hot-house-more-info .tag .tag-two {
+    border: 1px solid #ced2d6;
+    color: #9399a5;
+    line-height: 14px;
+}
+.renting-house .hot-house-more-info h4 {
+    margin-top: 5px;
+    color: #fe615a;
+}
+/*租房页面尾部样式*/
+.renting-house .footer {
+    margin-left: 80px;
+}

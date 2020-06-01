@@ -1,0 +1,33 @@
+  .person-menu .el-aside {
+    background-color: #f0f0f0;
+    color: rgb(191, 203, 217);
+    text-align: left;
+    line-height: 200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .person-menu .el-aside a {
+    color: #bfcbd9;
+  }
+  .person-menu .el-aside .el-person-menu {
+    background-color: rgb(50, 65, 87);
+    border-right: none;
+  }
+  .person-menu .el-aside .el-person-menu span {
+    font-size: 15px;
+  }
+  .person-menu .el-aside .el-person-menu-item.is-active {
+    background-color: rgb(50, 65, 87);
+  }
+  .person-menu .el-aside .el-person-menu-vertical-demo {
+    height: 700px;
+  }
+  .person-menu .el-aside .el-person-menu span,
+  .person-menu .el-aside .el-person-menu .el-person-menu-item,
+  .person-menu .el-aside .el-person-menu span {
+    color: rgb(191, 203, 217);
+  }
+  .person-menu .el-aside .el-person-menu .el-subperson-menu__title:hover,
+  .person-menu .el-aside .el-person-menu .el-person-menu-item:hover {
+    background-color: rgb(40, 52, 70);
+  }

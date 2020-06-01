@@ -1,0 +1,173 @@
+.publicHouseResource {
+    width: 1519px;
+    margin: 0 auto;
+}
+/*发布房源页面头部搜索框和导航菜单样式*/
+.publicHouseResource .top-box{
+    background-size: 100% 100%;
+    background-image: url('../../../common/images/topbgimage.jpg');
+    /* width: 1700px; */
+    height: 230px;
+    margin: 0 auto;
+}
+.publicHouseResource .top-box .menu{
+    padding-top: 15px;
+    padding-left: 155px;
+}
+.publicHouseResource .top-box .menu ul{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.publicHouseResource .top-box .menu ul li{
+    float: left;
+    padding: 14px 0px;
+}
+.publicHouseResource .top-box .menu ul li a{
+    font-weight: bold;
+    color: #fff;
+}
+.publicHouseResource .top-box .menu ul li a:hover{
+    color:#777;
+}
+.publicHouseResource .top-box .menu .menu-one{
+    color:#06c;
+}
+.publicHouseResource .top-box .menu .menu-one,
+.publicHouseResource .top-box .menu .menu-two,
+.publicHouseResource .top-box .menu .menu-three,
+.publicHouseResource .top-box .menu .menu-four {
+    margin-left: 30px;
+}
+.publicHouseResource .top-box .menu .el-input input{
+    width: 600px;
+}
+.publicHouseResource .top-box .title {
+    margin-top: 30px;
+    text-align: center;
+}
+.publicHouseResource .top-box .title h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #fff;
+}
+/*发布房源页面主体样式*/
+.publicHouseResource .content{
+    margin: 50px 310px;
+    width: 510px;
+}
+.publicHouseResource .el-form-item__label {
+    color: #000;
+    font-weight: bolder;
+}
+.publicHouseResource .el-input__inner {
+    border-radius:0px;
+    border: none;
+    border-bottom: 1px solid #DCDFE6;
+}
+.publicHouseResource .content .sell-house-form h4 {
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 197px;
+}
+.publicHouseResource .content .sell-house-form a {
+    position: absolute;
+    width: 180px;
+    margin-left: -150px;
+    float: right;
+    color: #009de8;
+    font-size: 12px;
+}
+.publicHouseResource .content .sell-house-form .send-code{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -120px;
+}
+.publicHouseResource .content .sell-house-form .commit {
+    margin-left: 325px;
+}
+.publicHouseResource .content .sell-house-form {
+    display: inline-block;
+}
+.publicHouseResource .content .sell-house-form .toEvaluation {
+    margin-left: 0px;
+}
+/*发布房源页面主体内容右部内容样式*/
+.publicHouseResource .content .content-right {
+    display: inline-block;
+    position: absolute;
+    margin-left: 55px;
+    width: 340px;
+    box-shadow: 5px 5px 5px #EEE
+}
+.publicHouseResource .content .content-right .right-top {
+    height: 90px;
+    background-color: #101d37;
+    color: #fff;
+}
+.publicHouseResource .content .content-right .right-top h5 {
+    font-weight: normal;
+}
+.publicHouseResource .content .content-right .right-top .title {
+    padding-top: 20px;
+    padding-left: 26px;
+}
+.publicHouseResource .content .content-right .right-middle {
+    height: 100%;
+    background-color: rgba(238,238,238, .4);
+    
+}
+.publicHouseResource .content .content-right .right-middle .deal-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    width: 300px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.publicHouseResource .content .content-right .right-middle .deal-content a{
+    display: inline-block;
+    color: #101d37;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.publicHouseResource .content .content-right .right-middle .deal-content a:hover {
+    text-decoration: underline;
+}
+.publicHouseResource .content .content-right .right-middle .deal-content h5{
+    display: inline-block;
+    margin-top: 6px;
+    color: #aaa;
+    font-size: 12px;
+    font-weight: normal;
+}
+.publicHouseResource .content .content-right .right-middle .deal-content span{
+    float: right;
+    font-weight: 700;
+    color: #e4393c;
+}
+.publicHouseResource .content .content-right .right-middle .right-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    width: 300px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.publicHouseResource .content .content-right .right-middle .right-bottom a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #9399a5;
+}
+.publicHouseResource .content .content-right .right-middle .right-bottom a:hover {
+    text-decoration: underline;
+}
+/*发布房源页面尾部样式*/
+.publicHouseResource .footer {
+    margin-left: 80px;
+}

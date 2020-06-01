@@ -1,0 +1,166 @@
+.header {
+    /* width: 1700px; */
+    height: 100%;
+    margin: 0 auto;
+  }
+.header .top-banner {
+    background-color: #303035;
+  }
+.header .top-text-box {
+    width: 100%;
+    height: 35px;
+    margin: 0px auto;
+    color: #999;
+    line-height: 8px;
+  }
+.header .nav-menu-ul,
+.header .log-reg-ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.header .nav-menu-ul {
+    margin-left: 150px;
+  }
+  .header .log-reg-ul {
+    margin-left: 900px;
+  }
+  .header .nav-menu-ul li,
+  .header .log-reg-ul li {
+    float: left;
+  }
+  .header .nav-menu-ul li a,
+  .header .log-reg-ul li a {
+    display: block;
+    color: #999;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .header .nav-menu-ul li a:hover,
+  .header .log-reg-ul li a:hover {
+    color: #FFF;
+  }
+  /*网页尾部样式*/
+.footer-all {
+    width: 1300px;
+    margin: 20px auto;
+    /* padding-left: 100px; */
+  }
+  .footer-all .footer-link-title a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .footer-all .footer-link-title .konw-me {
+    margin-left: 10px;
+  }
+  .footer-all .footer-link-title .ask-me {
+    margin-left: 960px;
+    color: #06c;
+  }
+  /*网页尾部小菜单样式*/
+  .footer-all .tag-menu-title{
+      margin-top:10px;
+  }
+  .footer-all .menu-one-content,
+  .footer-all .menu-two-content,
+  .footer-all .menu-three-content,
+  .footer-all .menu-four-content,
+  .footer-all .menu-five-content,
+  .footer-all .menu-six-content{
+      margin-top: -25px;
+  }
+  /*ul列表横向排放*/
+  .footer-all .tag-menu-title ul,
+  .footer-all .menu-one-content ul,
+  .footer-all .menu-two-content ul,
+  .footer-all .menu-three-content ul,
+  .footer-all .menu-four-content ul,
+  .footer-all .menu-five-content ul,
+  .footer-all .menu-six-content ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .footer-all .tag-menu-title ul li,
+  .footer-all .menu-one-content ul li,
+  .footer-all .menu-two-content ul li,
+  .footer-all .menu-three-content ul li,
+  .footer-all .menu-four-content ul li,
+  .footer-all .menu-five-content ul li,
+  .footer-all .menu-six-content ul li {
+    float: left;
+    padding: 14px 0px;
+  }
+  /*每个li之间间隔一点距离*/
+  .footer-all .title-two,
+  .footer-all .title-three,
+  .footer-all .title-four,
+  .footer-all .title-five,
+  .footer-all .title-six{
+      margin-left: 15px;
+  }
+  .footer-all .gz-area-two,
+  .footer-all .gz-area-three,
+  .footer-all .gz-area-four,
+  .footer-all .gz-area-five,
+  .footer-all .gz-area-six,
+  .footer-all .gz-area-seven,
+  .footer-all .gz-area-eight,
+  .footer-all .gz-area-nine,
+  .footer-all .gz-area-ten,
+  .footer-all .gz-area-eleven{
+      margin-left: 5px;
+  }
+  /*设置li中超链接的字体样式*/
+  .footer-all .tag-menu-title ul li a{
+      font-weight: normal;
+  }
+  .footer-all .menu-one-content ul li a,
+  .footer-all .menu-two-content ul li a,
+  .footer-all .menu-three-content ul li a,
+  .footer-all .menu-four-content ul li a,
+  .footer-all .menu-five-content ul li a,
+  .footer-all .menu-six-content ul li a{
+      font-size: 14px;
+      font-weight: normal;
+  }
+  /*设置鼠标悬停时的样式*/
+  .footer-all .title-one:hover,
+  .footer-all .title-two:hover,
+  .footer-all .title-three:hover,
+  .footer-all .title-four:hover,
+  .footer-all .title-five:hover,
+  .footer-all .title-six:hover{
+      color: #06c;
+  }
+  .footer-all .gz-area-one:hover,
+  .footer-all .gz-area-two:hover,
+  .footer-all .gz-area-three:hover,
+  .footer-all .gz-area-four:hover,
+  .footer-all .gz-area-five:hover,
+  .footer-all .gz-area-six:hover,
+  .footer-all .gz-area-seven:hover,
+  .footer-all .gz-area-eight:hover,
+  .footer-all .gz-area-nine:hover,
+  .footer-all .gz-area-ten:hover,
+  .footer-all .gz-area-eleven:hover{
+      text-decoration: underline;
+  }
+  .footer-all .menu-two-content,
+  .footer-all .menu-three-content,
+  .footer-all .menu-four-content,
+  .footer-all .menu-five-content,
+  .footer-all .menu-six-content {
+    display: none;
+  }
+  /*设置尾部最后内容的样式*/
+  .footer-all .last-content p{
+    font-size: 14px;
+  }

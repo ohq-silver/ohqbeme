@@ -1,0 +1,432 @@
+/*二手房页面头部样式*/
+.second-house{
+    width: 1519px;
+    margin: 0 auto;
+}
+/*二手房页面头部搜索框和导航菜单样式*/
+.second-house-header .search-box{
+    background-size: 100% 100%;
+    background-image: url('../../../common/images/topbgimage.jpg');
+    /* width: 1700px; */
+    height: 150px;
+    margin: 0 auto;
+}
+.second-house-header .search-box .menu{
+    padding-top: 15px;
+    padding-left: 155px;
+}
+.second-house-header .search-box .menu ul{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.second-house-header .search-box .menu ul li{
+    float: left;
+    padding: 14px 0px;
+}
+.second-house-header .search-box .menu ul li a{
+    font-weight: bold;
+    color: #fff;
+}
+.second-house-header .search-box .menu ul li a:hover{
+    color:#777;
+}
+.second-house-header .search-box .menu .menu-one,
+.second-house-header .search-box .menu .menu-two,
+.second-house-header .search-box .menu .menu-three,
+.second-house-header .search-box .menu .menu-four {
+    margin-left: 30px;
+}
+/* .second-house-header .search-box .menu .el-input input{
+    width: 600px;
+} */
+/*二手房页面主体内容中多选框选择样式*/
+.second-house-content{
+    /* width: 1700px; */
+    margin: 0 auto;
+}
+.second-house-content .choose-form{
+    margin-top: 30px;
+    margin-left: 155px;
+    background-color: #f5f5f6;
+    width: 1220px;
+    height: 100%;
+    font-size: 12px;
+}
+.second-house-content .choose-form .position-place{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.second-house-content .choose-form .position-place hr{
+    margin-left: 0px;
+    width: 1150px;
+}
+/*ul列表横向排列*/
+.second-house-content .choose-form .position-place ul,
+.second-house-content .choose-form .area ul,
+.second-house-content .choose-form .line ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.second-house-content .choose-form .position-place ul li,
+.second-house-content .choose-form .area ul li,
+.second-house-content .choose-form .line ul li{
+    float: left;
+    padding: 14px 0px;
+}
+.second-house-content .choose-form .position-place .text-one{
+    font-weight: bold;
+}
+.second-house-content .choose-form .position-place #text-two,
+.second-house-content .choose-form .position-place #text-three{
+    margin-left: 35px;
+    color: black;
+}
+.second-house-content .choose-form .position-place #text-two:hover,
+.second-house-content .choose-form .position-place #text-three:hover{
+    color: #06c;
+    text-decoration: underline;
+}
+/*区域和地铁线数据样式*/
+.second-house-content .choose-form .position-place #text-two{
+    color: #06c;
+}
+.second-house-content .choose-form .line{
+    display: none;
+}
+.second-house-content .choose-form .area,
+.second-house-content .choose-form .line{
+    margin-left: 80px;
+}
+.second-house-content .choose-form .area .area-data-two,
+.second-house-content .choose-form .area .area-data-three,
+.second-house-content .choose-form .area .area-data-four,
+.second-house-content .choose-form .area .area-data-five,
+.second-house-content .choose-form .area .area-data-six,
+.second-house-content .choose-form .area .area-data-seven,
+.second-house-content .choose-form .area .area-data-eight,
+.second-house-content .choose-form .area .area-data-nine,
+.second-house-content .choose-form .area .area-data-ten,
+.second-house-content .choose-form .area .area-data-elven,
+.second-house-content .choose-form .area .area-data-twlve,
+.second-house-content .choose-form .area .area-data-thirteen,
+.second-house-content .choose-form .line .line-data-two,
+.second-house-content .choose-form .line .line-data-three,
+.second-house-content .choose-form .line .line-data-four,
+.second-house-content .choose-form .line .line-data-five,
+.second-house-content .choose-form .line .line-data-six,
+.second-house-content .choose-form .line .line-data-seven,
+.second-house-content .choose-form .line .line-data-eight,
+.second-house-content .choose-form .line .line-data-nine,
+.second-house-content .choose-form .line .line-data-ten,
+.second-house-content .choose-form .line .line-data-elven,
+.second-house-content .choose-form .line .line-data-twlve,
+.second-house-content .choose-form .line .line-data-thirteen,
+.second-house-content .choose-form .line .line-data-fourteen,
+.second-house-content .choose-form .line .line-data-fifthteen,
+.second-house-content .choose-form .line .line-data-sixteen{
+    margin-left: 15px;
+}
+/*表单表格样式*/
+.second-house-content .choose-form .check-box-form .el-form-item__label{
+    font-weight: bold;
+    color: black;
+}
+.second-house .el-form-item__label,
+.second-house .el-checkbox__label{
+    font-size: 12px;
+    width: 43.11px;
+}
+.second-house .el-form-item{
+    margin-bottom: 0px;
+    height: 40px;
+}
+.second-house .more-choose-text,
+.second-house .recive-choose-text{
+    height: 30px;
+    text-align: center;
+    color:#606266;
+    font-size: 12px;
+}
+.second-house .show-hide-choose,
+.second-house .recive-choose-text{
+    display: none;
+}
+/*二手房详细信息*/
+.second-house .house-details{
+    margin-top: 30px;
+    margin-left: 155px;
+}
+.second-house .first-type-house-one,
+.second-house .first-type-house-two,
+.second-house .first-type-house-three,
+.second-house .first-type-house-four,
+.second-house .first-type-house-five,
+.second-house .second-type-house-one,
+.second-house .second-type-house-two,
+.second-house .second-type-house-three,
+.second-house .second-type-house-four,
+.second-house .second-type-house-five,
+.second-house .third-type-house-one,
+.second-house .third-type-house-two,
+.second-house .third-type-house-three,
+.second-house .third-type-house-four,
+.second-house .third-type-house-five,
+.second-house .four-type-house-one,
+.second-house .four-type-house-two,
+.second-house .four-type-house-three,
+.second-house .four-type-house-four,
+.second-house .four-type-house-five{
+    margin-top: 15px;
+}
+.second-house .first-type-house-one .introduce-text,
+.second-house .first-type-house-two .introduce-text,
+.second-house .first-type-house-three .introduce-text,
+.second-house .first-type-house-four .introduce-text,
+.second-house .first-type-house-five .introduce-text,
+.second-house .second-type-house-one .introduce-text,
+.second-house .second-type-house-two .introduce-text,
+.second-house .second-type-house-three .introduce-text,
+.second-house .second-type-house-four .introduce-text,
+.second-house .second-type-house-five .introduce-text,
+.second-house .third-type-house-one .introduce-text,
+.second-house .third-type-house-two .introduce-text,
+.second-house .third-type-house-three .introduce-text,
+.second-house .third-type-house-four .introduce-text,
+.second-house .third-type-house-five .introduce-text,
+.second-house .four-type-house-one .introduce-text,
+.second-house .four-type-house-two .introduce-text,
+.second-house .four-type-house-three .introduce-text,
+.second-house .four-type-house-four .introduce-text,
+.second-house .four-type-house-five .introduce-text{
+    display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+    height: 100%;
+}
+.second-house .first-type-house-one .introduce-text .tag span,
+.second-house .first-type-house-two .introduce-text .tag span,
+.second-house .first-type-house-three .introduce-text .tag span,
+.second-house .first-type-house-four .introduce-text .tag span,
+.second-house .first-type-house-five .introduce-text .tag span,
+.second-house .second-type-house-one .introduce-text .tag span,
+.second-house .second-type-house-two .introduce-text .tag span,
+.second-house .second-type-house-three .introduce-text .tag span,
+.second-house .second-type-house-four .introduce-text .tag span,
+.second-house .second-type-house-five .introduce-text .tag span,
+.second-house .third-type-house-one .introduce-text .tag span,
+.second-house .third-type-house-two .introduce-text .tag span,
+.second-house .third-type-house-three .introduce-text .tag span,
+.second-house .third-type-house-four .introduce-text .tag span,
+.second-house .third-type-house-five .introduce-text .tag span,
+.second-house .four-type-house-one .introduce-text .tag span,
+.second-house .four-type-house-two .introduce-text .tag span,
+.second-house .four-type-house-three .introduce-text .tag span,
+.second-house .four-type-house-four .introduce-text .tag span,
+.second-house .four-type-house-five .introduce-text .tag span{
+    margin-top: 20px;
+    color: #849aae;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 11px;
+    margin-right: 6px;
+    background-color: #f4f7f9;
+    float: left;
+}
+.second-house .first-type-house-one .introduce-text h4,
+.second-house .first-type-house-two .introduce-text h4,
+.second-house .first-type-house-three .introduce-text h4,
+.second-house .first-type-house-four .introduce-text h4,
+.second-house .first-type-house-five .introduce-text h4,
+.second-house .second-type-house-one .introduce-text h4,
+.second-house .second-type-house-two .introduce-text h4,
+.second-house .second-type-house-three .introduce-text h4,
+.second-house .second-type-house-four .introduce-text h4,
+.second-house .second-type-house-five .introduce-text h4,
+.second-house .third-type-house-one .introduce-text h4,
+.second-house .third-type-house-two .introduce-text h4,
+.second-house .third-type-house-three .introduce-text h4,
+.second-house .third-type-house-four .introduce-text h4,
+.second-house .third-type-house-five .introduce-text h4,
+.second-house .four-type-house-one .introduce-text h4,
+.second-house .four-type-house-two .introduce-text h4,
+.second-house .four-type-house-three .introduce-text h4,
+.second-house .four-type-house-four .introduce-text h4,
+.second-house .four-type-house-five .introduce-text h4{
+    margin-top: 20px;
+    font-weight: normal;
+}
+.second-house .mianji hr,
+.second-house .zuixinfabu hr,
+.second-house .fangwudanjia hr,
+.second-house .zongjia hr{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+/*动画样式*/
+.second-house .ciryle{
+    display: inline-block;
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 145px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.second-house .donghua{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+    z-index: 10;
+}
+@-webkit-keyframes mymove {
+    50%{-webkit-transform: rotate(180deg);opacity: 0.3;}
+}
+@keyframes mymove{
+    50% {transform: rotate(180deg);opacity: 0.3;}
+}
+/*设置房屋详细信息中鼠标悬停时弹出图片轮播*/
+/* .second-house .el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+} */
+  
+/* .second-house .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+    background: linear-gradient(top,rgba(255,255,255,0),#99a9bf);
+    filter: progid:DXImageTransfrom.Microsoft.gradient(startColorstr=#00ffffff,endColorstr=#99a9bf,GradientType=0);
+}
+  
+.second-house .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+} */
+/* .second-house .bgimage-introduce{
+    display: none;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: -310px;
+}
+.second-house .bgimage-introduce .el-carousel{
+    width: 892px;
+} */
+/* .second-house .first-type-house-one:hover .bgimage-introduce,
+.second-house .first-type-house-two:hover .bgimage-introduce,
+.second-house .first-type-house-three:hover .bgimage-introduce,
+.second-house .first-type-house-four:hover .bgimage-introduce,
+.second-house .first-type-house-five:hover .bgimage-introduce,
+.second-house .second-type-house-one:hover .bgimage-introduce,
+.second-house .second-type-house-two:hover .bgimage-introduce,
+.second-house .second-type-house-three:hover .bgimage-introduce,
+.second-house .second-type-house-four:hover .bgimage-introduce,
+.second-house .second-type-house-five:hover .bgimage-introduce,
+.second-house .third-type-house-one:hover .bgimage-introduce,
+.second-house .third-type-house-two:hover .bgimage-introduce,
+.second-house .third-type-house-three:hover .bgimage-introduce,
+.second-house .third-type-house-four:hover .bgimage-introduce,
+.second-house .third-type-house-five:hover .bgimage-introduce,
+.second-house .four-type-house-one:hover .bgimage-introduce,
+.second-house .four-type-house-two:hover .bgimage-introduce,
+.second-house .four-type-house-three:hover .bgimage-introduce,
+.second-house .four-type-house-four:hover .bgimage-introduce,
+.second-house .four-type-house-five:hover .bgimage-introduce{
+    display: block;
+} */
+.second-house .house-details .el-image{
+    width: 280px;
+    height: 210px;
+}
+/*二手房页面拓展样式*/
+.second-house .expand-more {
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.second-house .house-details {
+    display: inline-block;
+}
+.second-house .expand-more .map-to-house .el-button{
+    margin-left: 20px;
+}
+.second-house .expand-more hr{
+    margin-top: 30px;
+}
+.second-house .expand-more .look-more,
+.second-house .expand-more .hot-more{
+    margin-top: 30px;
+}
+.second-house .expand-more .look-more .link,
+.second-house .expand-more .hot-more .link{
+    margin-left: 60px;
+    color: #666;
+    font-size: 14px;
+}
+.second-house .expand-more .look-more .no-link,
+.second-house .expand-more .hot-more .no-link{
+    color: #101d37;
+    font-size: 16px;
+    font-weight: 700;
+}
+.second-house .expand-more .look-more .link:hover,
+.second-house .expand-more .look-more .content ul li a:hover,
+.second-house .expand-more .hot-more .link:hover,
+.second-house .expand-more .hot-more .content ul li a:hover{
+    text-decoration: underline;
+}
+.second-house .expand-more .look-more .content ul li,
+.second-house .expand-more .hot-more .content ul li {
+    margin-top: 10px;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #101d37;    
+}
+/*分页位置*/
+.second-house .pagination-box{
+    margin-left: 560px;
+}
+.second-house .pagination-box .last-page,
+.second-house .pagination-box .next-page,
+.second-house .pagination-box .page-number {
+    display: inline;
+}
+/*二手房页面显示房屋具体内容的样式*/
+/* .second-house .bgimage-introduce .introduce{
+    display: inline-block;
+    position: absolute;
+}
+.second-house .bgimage-introduce .el-image{
+    display: inline-block;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 300px;
+    width: 400px;
+    opacity: 0.8;
+}
+.second-house .bgimage-introduce .el-button{
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 780px;
+} */
+/*二手房页面尾部位置*/
+.second-house-footer{
+    margin-left: 80px;
+}

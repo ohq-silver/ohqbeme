@@ -1,0 +1,117 @@
+.evaluationHouse {
+    width: 1519px;
+    margin: 0 auto;
+}
+/*我要估价页面头部搜索框和导航菜单样式*/
+.evaluationHouse .top-box{
+    background-size: 100% 100%;
+    background-image: url('../../../common/images/topbgimage.jpg');
+    /* width: 1700px; */
+    height: 230px;
+    margin: 0 auto;
+}
+.evaluationHouse .top-box .menu{
+    padding-top: 15px;
+    padding-left: 155px;
+}
+.evaluationHouse .top-box .menu ul{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.evaluationHouse .top-box .menu ul li{
+    float: left;
+    padding: 14px 0px;
+}
+.evaluationHouse .top-box .menu ul li a{
+    font-weight: bold;
+    color: #fff;
+}
+.evaluationHouse .top-box .menu ul li a:hover{
+    color:#777;
+}
+.evaluationHouse .top-box .menu .menu-two{
+    color:#06c;
+}
+.evaluationHouse .top-box .menu .menu-one,
+.evaluationHouse .top-box .menu .menu-two,
+.evaluationHouse .top-box .menu .menu-three,
+.evaluationHouse .top-box .menu .menu-four {
+    margin-left: 30px;
+}
+.evaluationHouse .top-box .menu .el-input input{
+    width: 600px;
+}
+.evaluationHouse .top-box .title {
+    margin-top: 30px;
+    text-align: center;
+}
+.evaluationHouse .top-box .title h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #878787;
+}
+/*我要估价页面主体样式*/
+.evaluationHouse .content{
+    margin-top: 50px;
+    margin-left: 241px;
+    width: 510px;
+}
+.evaluationHouse .el-form-item__label {
+    color: #000;
+    font-weight: bolder;
+}
+.evaluationHouse .el-input__inner {
+    border-radius:0px;
+    border: none;
+    border-bottom: 1px solid #DCDFE6;
+}
+.evaluationHouse .content .sell-house-form h4 {
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 365px;
+}
+.evaluationHouse .content .sell-house-form .commit {
+    margin-left: 325px;
+}
+.evaluationHouse .content .sell-house-form .pull-down-choice input{
+    border: 1px solid #DCDFE6;
+    background-color: rgba(238,238,238,.4);
+    width: 130px;
+    height: 36px;
+}
+.evaluationHouse .content .total-folor {
+    margin-left: 98px;
+}
+.evaluationHouse .content .sell-house-form {
+    display: inline-block;
+}
+.evaluationHouse .content .content-right {
+    display: inline-block;
+    position: absolute;
+    margin-left: 180px;
+    width: 340px;
+    height: 300px;
+    border-bottom: 5px solid rgba(238,238,238,.4);
+    border-top: 5px solid rgba(238,238,238,.4);
+}
+.evaluationHouse .content .content-right p {
+    padding: 0 50px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    color: #666;
+}
+.evaluationHouse .content .content-right .el-image{
+    margin-top: 30px;
+    margin-left: 116px;
+}
+/*我要估价页面尾部样式*/
+.evaluationHouse .footer {
+    margin-left: 80px;
+}

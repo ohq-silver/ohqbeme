@@ -1,0 +1,10 @@
+.father {
+    width: 150px;
+    background-color: #cd0000;
+    /* 这是代表不换行显示 */
+    white-space: nowrap; 
+}
+.child {
+    display: inline-block;
+    background-color: #f0f3f9;
+}

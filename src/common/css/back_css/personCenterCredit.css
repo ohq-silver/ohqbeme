@@ -1,0 +1,16 @@
+.personCenterCredit .credit-manager {
+    height: 650px;
+    line-height: 30px;
+}
+.personCenterCredit .credit-manager .goal {
+    width: 150px;
+    color: #409EFF;
+}
+.personCenterCredit .credit-manager .goal .goal-desribe {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #bfcbd9;
+}
+.personCenterCredit .credit-manager .message {
+    width: 1000px;
+}

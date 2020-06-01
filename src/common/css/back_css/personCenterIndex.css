@@ -1,0 +1,230 @@
+.personCenter .el-header {
+  background-color: #242f42;
+  color: #fff;
+  line-height: 60px;
+}
+.personCenter .el-header .top-head-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.personCenter .el-header i {
+  color: #fff;
+}
+.personCenter .el-header .head-text-one {
+  margin-left: 15px;
+  font-size: 25px;
+}
+.personCenter .el-header .el-radio__input {
+  display: none;
+}
+.personCenter .el-header .head-text-two {
+  float: right;
+  color: #fff;
+}
+.personCenter .el-header .head-text-two span {
+  color: #fff;
+}
+.personCenter .el-header .head-text-two .el-avatar {
+  position: absolute;
+    margin-top: 12px;
+    margin-left: -45px;
+}
+.personCenter .el-aside {
+  background-color: #f0f0f0;
+  color: rgb(191, 203, 217);
+  text-align: left;
+  line-height: 200px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.personCenter .el-aside a {
+  color: #bfcbd9;
+}
+.personCenter .el-aside .el-menu {
+  background-color: rgb(50, 65, 87);
+  border-right: none;
+}
+.personCenter .el-aside .el-menu span {
+  font-size: 15px;
+}
+.personCenter .el-aside .el-menu-item.is-active {
+  background-color: rgb(50, 65, 87);
+}
+.personCenter .el-aside .el-menu-vertical-demo {
+  height: 700px;
+}
+.personCenter .el-aside .el-menu span,
+.personCenter .el-aside .el-menu .el-menu-item,
+.personCenter .el-aside .el-menu span {
+  color: rgb(191, 203, 217);
+}
+.personCenter .el-aside .el-menu .el-submenu__title:hover,
+.personCenter .el-aside .el-menu .el-menu-item:hover {
+  background-color: rgb(40, 52, 70);
+}
+.personCenter .el-main {
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  line-height: 160px;
+  height: 700px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.personCenter .el-main .person-controduce {
+  width: 403px;
+  height: 252px;
+  border-radius: 5px;
+}
+.personCenter .el-main .person-controduce .user-info {
+  height: 160px;
+  border-bottom: 2px solid #ccc;
+}
+.personCenter .el-main .person-controduce .user-info img {
+  float: left;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.personCenter .el-main .person-controduce .user-info .user-info-content {
+  float: left;
+  margin-top: 36px;
+  margin-left: 35px;
+  width: 95px;
+}
+.personCenter .el-main .person-controduce .user-info .user-info-content .user-name {
+  font-size: 30px;
+  color: #222;
+  line-height: 25px;
+  height: 30px;
+}
+.personCenter .el-main .person-controduce .user-info .user-info-content .user-type {
+  font-size: 14px;
+  color: #999;
+  height: 30px;
+  line-height: 25px;
+}
+.personCenter .el-main .person-controduce .user-info-list-one {
+  float: left;
+  margin-top: 10px;
+  height: 30px;
+  font-size: 14px;
+  color: #999;
+  line-height: 25px;
+}
+.personCenter .el-main .person-controduce .user-info-list-two {
+  float: left;
+  height: 30px;
+  font-size: 14px;
+  color: #999;
+  line-height: 25px;
+}
+.personCenter .el-main .person-controduce .user-info-list-one .actually-text,
+.personCenter .el-main .person-controduce .user-info-list-two .actually-text {
+  margin-left: 150px;
+  font-size: 14px;
+  color: #999;
+  line-height: 25px;
+}
+.personCenter .el-main .show-message {
+  width: 862px;
+}
+.personCenter .el-main .show-message .show-message-card .img-icon-user,
+.personCenter .el-main .show-message .show-message-card .img-icon-bell,
+.personCenter .el-main .show-message .show-message-card .img-icon-file {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+}
+.personCenter .el-main .show-message .show-message-card .img-icon-user {
+  background-color: #2d8cf0;
+}
+.personCenter .el-main .show-message .show-message-card .img-icon-bell {
+  background-color: #64d572;
+}
+.personCenter .el-main .show-message .show-message-card .img-icon-file {
+  background-color: #f25e43;
+}
+.personCenter .el-main .show-message .show-message-card .show-text {
+  margin-left: 120px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  height: 100px;
+  line-height: 100px;
+}
+.personCenter .el-main .show-message .show-message-card .show-text .show-number {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2d8cf0;
+}
+.personCenter .el-main .show-message .show-message-card .show-text .detail-text {
+  margin-top: -20px;
+}
+.personCenter .el-main .show-message .show-message-card .show-text .show-number,
+.personCenter .el-main .show-message .show-message-card .show-text .detail-text {
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+}
+.personCenter .el-main .house-progress{
+  width: 842px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.personCenter .el-main .house-progress .house-progress-title {
+  height: 58px;
+  line-height: 30px;
+  border-bottom: 1px solid #ebeef5;
+}
+.personCenter .el-main .house-progress .house-progress-box {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.personCenter .el-main .house-progress .house-progress-box .house-progress-text {
+  margin-top: -70px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.personCenter .el-main .wait-do {
+  margin-top: 20px;
+  width: 403px;
+  border-radius: 5px;
+}
+.personCenter .el-main .wait-do .wait-do-title {
+  height: 33px;
+  line-height: 13px;
+}
+.personCenter .el-main .people-flow-chart {
+  line-height: 30px;
+  width: 842px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.personCenter .el-main .people-flow-chart {
+  text-align: left;
+}
+.personCenter .el-main .left-content {
+  float: left;
+}
+.personCenter .el-main .right-content {
+  float: right;
+}
+/* .personCenter .el-main .left-content,
+.personCenter .el-main .right-content {
+  display: inline-block;
+} */
+.personCenter .el-main .left-content .house-tag {
+  margin-top: 20px;
+  line-height: 105px;
+}
